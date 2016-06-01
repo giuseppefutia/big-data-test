@@ -39,7 +39,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Artifact for running mini clusters -->
+        <!-- Artifact for running hadoop mini cluster -->
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-minicluster</artifactId>
