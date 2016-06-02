@@ -1,5 +1,7 @@
 
 import java.io.IOException;
+
+import MaxTemp.MaxTemperatureMapper;
 import org.apache.hadoop.io.*;
 import org.apache.hadoop.mrunit.mapreduce.MapDriver;
 import org.junit.*;

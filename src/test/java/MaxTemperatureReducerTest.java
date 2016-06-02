@@ -1,6 +1,8 @@
 
 import java.io.IOException;
 import java.util.*;
+
+import MaxTemp.MaxTemperatureReducer;
 import org.apache.hadoop.io.*;
 import org.apache.hadoop.mrunit.mapreduce.ReduceDriver;
 import org.junit.*;
