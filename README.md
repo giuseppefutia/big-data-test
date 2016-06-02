@@ -21,7 +21,7 @@ The result should be: yarn.resourcemanager.address=localhost:8032
 
 ## How to run the Driver
 
-### Run the Max Temperature example Driver locally
+### Run the Max Temperature Driver locally
 In this case you must load the hadoop-local configuration file to test MapReduce in your local machine:
 
 ```
