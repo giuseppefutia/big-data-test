@@ -1,3 +1,4 @@
+package MaxTemp;
 
 import java.io.IOException;
 

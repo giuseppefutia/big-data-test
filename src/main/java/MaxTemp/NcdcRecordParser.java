@@ -1,3 +1,5 @@
+package MaxTemp;
+
 import org.apache.hadoop.io.Text;
 
 // Put the parse logic here and clean Mapper
@@ -39,4 +41,4 @@ public class NcdcRecordParser {
         return airTemperature;
     }
 }
-// ^^ NcdcRecordParserV2
+
