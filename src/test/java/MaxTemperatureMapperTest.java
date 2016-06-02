@@ -53,6 +53,4 @@ public class MaxTemperatureMapperTest {
                 .withOutput(new Text("1957"), new IntWritable(1957))
                 .runTest();
     }
-
 }
-// ^^ MaxTemperatureMapperTestV1
