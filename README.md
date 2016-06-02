@@ -1,4 +1,5 @@
 # Big Data Test
+This repository contains my tests on the Hadoop platform
 
 ## Test Hadoop configuration files
 
