@@ -27,13 +27,13 @@ In this case you must load the hadoop-local configuration file to test MapReduce
 ```
 mvn compile
 export HADOOP_CLASSPATH=target/classes/
-hadoop MaxTemp.MaxTemperatureDriver -conf conf/hadoop-local.xml src/main/resources/ output
+hadoop MaxTemp.MaxTemperatureDriver -conf conf/hadoop-local.xml src/main/resources/sample.txt output
 ```
 
 Exploiting the GenericOptionsParser, you can also write
 
 ```
-hadoop MaxTemp.MaxTemperatureDriver -fs file:/// -jt local src/main/resources/ output
+hadoop MaxTemp.MaxTemperatureDriver -fs file:/// -jt local src/main/resources/sample.txt output
 ```
 
 
