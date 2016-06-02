@@ -43,6 +43,8 @@ public class MaxTemperatureMapperTest {
                 .runTest();
     }
 
+    @Ignore // Used to ignore a test
+
     @Test
     public void processesMalformedTemperatureRecord() throws IOException, InterruptedException {
         Text value = new Text("0335999999433181957042302005+37950+139117SAO  +0004" +
