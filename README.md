@@ -36,4 +36,13 @@ Exploiting the GenericOptionsParser, you can also write:
 hadoop MaxTemp.MaxTemperatureDriver -fs file:/// -jt local src/main/resources/sample.txt output
 ```
 
+## Run the jar locally
 
+In order to create and launch the jar file, you should run the following commands:
+
+```
+mvn install
+hadoop jar hadoop-tester.jar -conf conf/hadoop-local.xml src/main/resources/sample.txt output
+```
+
+Warning: you has to remove the output directory, otherwise you risk to obtain the following exception "org.apache.hadoop.mapred.FileAlreadyExistsException" 
